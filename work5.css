@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  height: 90vh;
+  width: 100%;
+  justify-content: space-between;
+  flex-direction: row-reverse           ;
+}
+.box {
+  background-color: black;
+  width: 200px;
+  height: 200px;
+}
+
+.box1 {
+  align-self: flex-start;
+}
+.box2 {
+  align-self: center;
+}
+.box3 {
+  align-self: flex-end;
+}

@@ -1,0 +1,21 @@
+#main-parent {
+  background-color: pink;
+  border: 2px solid red;
+}
+section.main-heading {
+  background-color: rgba(128, 128, 128, 0.492);
+}
+li a {
+  color: red;
+}
+#main-parent > p {
+  border: 2px solid white;
+  background-color: green;
+}
+
+section + p {
+  background-color: red;
+}
+input[type="text"] {
+  color: grey;
+}

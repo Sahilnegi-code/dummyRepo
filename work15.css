@@ -1,0 +1,40 @@
+.box1 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.box2 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.box1-small1 {
+  background-color: grey;
+  width: 200px;
+  height: 200px;
+}
+.box1-small2 {
+  background-color: black;
+  width: 100px;
+  height: 100px;
+}
+
+.box2-small2 {
+  background-color: grey;
+  width: 200px;
+  height: 200px;
+}
+.box2-small1 {
+  background-color: black;
+  width: 100px;
+  height: 100px;
+  align-self: flex-end;
+}
+.container {
+  width: 450px;
+  height: 303px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

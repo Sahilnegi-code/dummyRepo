@@ -1,0 +1,22 @@
+.box1 {
+  position: relative;
+  height: 80vh;
+  width: 30vw;
+  background-color: darkgoldenrod;
+}
+.box2 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 50%;
+  width: 50%;
+  background-color: black;
+}
+.box3 {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  height: 50%;
+  width: 50%;
+  background-color: grey;
+}
